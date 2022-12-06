@@ -17,7 +17,7 @@ SELECT * FROM `students` WHERE date_of_birth <= "1992-12-06";
 
 SELEZIONO TUTTI I CORSI DEL PRIMO SEMESTRE DEL PRIMO ANNO DI QUALSIASI CORSO DI LAUREA (286)
 ```sql
-SELECT * FROM `exams` WHERE `period` = 'I semestre ' AND year = 1;
+SELECT * FROM `courses` WHERE `period` = 'I semestre ' AND year = 1;
 ```
 
 
